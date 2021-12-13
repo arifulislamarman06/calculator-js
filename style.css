@@ -1,0 +1,73 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     font-family: 'Libre Baskerville', serif;
+    
+ }
+ body{
+     background: honeydew;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+ }
+ .calculator{
+     border-collapse: collapse;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+ #display{
+     margin: auto;
+     width: 100%;
+     height: 85px;
+     font-size: 25px;
+     padding: 5px;
+     color: black;
+     text-align: right;
+     letter-spacing: 1.2px;
+     outline: none;
+     border: none;
+     background: #dddcdc;
+ }
+ table{
+     width: 320px;
+     border-collapse: collapse;
+     box-shadow: 0px 0px 17px 1px black;
+ }
+ td{
+     text-align: center;
+     /* width: 10%; */
+ }
+ input[type="button"]{
+     height: 80px;
+     width: 80px;
+     border: none;
+     background: black;
+     color: white;
+     font-size: 25px;
+     /* border-radius: 5px; */
+     transition: all 0.2s ease-in;
+     cursor: pointer;
+     outline: none;
+ }
+ .equal{
+     background: #ef0808!important;
+ }
+ .c{
+     background: yellow!important;
+     color: black!important;
+ }
+ .c:hover{
+     background: #53ff04fa!important;
+ }
+ input[type="button"]:hover{
+     background: cyan;
+     color: black;
+     outline: none;
+}
